@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donate to Kids Charity</title>  
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Function to trigger an alert message
+        function showAlert() {
+            alert("Thank you for your generous donation! Your support makes a difference.");
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Support Kids Charity</h1>
+            <p>Your donation helps improve the lives of children in need.</p>
+            <img src="https://www.fmbankva.com/wp-content/uploads/2023/10/AdobeStock_190763243-1030x686.jpeg" width="800" height="400" alt="Kids Charity Logo" class="logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="donation-section">
+            <div class="donation-image">
+                <img src="https://randyandrayelynnjassman.com/wp-content/uploads/2018/06/Randy-and-Raylynn-Jassman-Children-Giving-Back-Blog-1024x680-1.jpg" width="1200" height="300" alt="Happy Kids">
+            </div>
+
+            <div class="donation-form-container">
+                <h2>Make a Difference Today!</h2>
+                <form id="donationForm">
+                    <label for="donationAmount">Enter Donation Amount ($):</label>
+                    <input type="number" id="donationAmount" name="donationAmount" min="1" required>
+
+                    <label for="donorName">Your Name:</label>
+                    <input type="text" id="donorName" name="donorName" required>
+
+                    <label for="paymentMethod">Select Payment Method:</label>
+                    <select id="paymentMethod" name="paymentMethod" required>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="google-pay">Google Pay</option>
+                    </select>
+                </form>
+
+                <!-- Donate Access Button that triggers the alert -->
+                <button class="donate-access-btn" onclick="showAlert()">Donate Now</button>
+            </div>
+        </section>
+    </main>
+
+    <section class="thanks-section">
+        <h2>Make a Difference in a Child's Life</h2>
+        <p>Every child deserves the chance to grow up happy, healthy, and full of potential. Unfortunately, millions of children around the world are living in poverty, struggling to access basic necessities like food, clean water, education, and medical care. Your generous donation can help provide these children with the support they need to break the cycle of poverty and build a brighter future. By donating today, you are giving a child the opportunity to dream, learn, and thrive. Together, we can make a lasting impact and help change the lives of children who need it most. No contribution is too small—your kindness today will create hope for tomorrow.</p>
+
+        <h2>A Step Toward a Better Future</h2>
+        <p>When we think about the future, one of the most powerful ways we can help shape it is by investing in the children of today. Children are our future leaders, innovators, and creators, and they deserve the opportunity to grow up in environments where they can thrive. Unfortunately, many children around the world face significant challenges, including poverty, lack of education, and limited access to healthcare.</p>
+
+        <div class="thanks-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgWPjEZ_k12pfgq5Z7yLSbLQngIqivOOpWUQ&s" width="800px" height="600" alt="stay healthy">
+        </div>
+    </section>
+
+    <!-- Donation and Charity Links -->
+    <a href="https://st2.depositphotos.com/3591429/10427/i/450/depositphotos_104272164-stock-photo-human-hands-raising-up.jpg">Donation</a><br>
+    <a href="https://cdn.gohenry.com/blog/articles/1671722330179@jpeg-optimizer-shutterstock_454418929.jpg">Charity</a>
+
+    <footer>
+        <p>&copy; 2024 Kids Charity Organization. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
